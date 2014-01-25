@@ -1,5 +1,6 @@
 body {
 	margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
+  position: relative;
 }
 
 .portfolio-item {
@@ -13,9 +14,117 @@ footer {
 img {
 	border:1px solid #EEE;
 	padding:6px;
+  height: 300px;
+  width:300px;
+}
+
+.itemImage {
+  border:1px solid #EEE;
+  padding:6px;
+  height: 300px;
+  width:300px;
+  margin-left: 60px;
+}
+
+.itemName{
+  margin-left: 60px;
 }
 
 img:hover {
 	opacity:0.8;
 }
+
+.itemScore{
+  display: inline;
+}
+
+.container{
+  position:relative;
+}
+.carousel{
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  position:relative;
+}
+
+.carousel li{
+  background-color: white;
+  text-align:center;
+}
+    
+.roundabout-holder {
+  list-style: none;
+  padding: 0;
+  height: 40em;
+  width: 50em;
+  padding-left:500px;
+  margin-left:30%;
+}
+.roundabout-moveable-item {
+  margin-top:20px;
+  height: 40em;
+  width: 60em;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid #999;
+}
+.roundabout-in-focus {
+  cursor: auto;
+}
+
+.like{
+  width: 40%;
+}
+
+.dislike{
+  /*margin-left: 80px;*/
+  width: 40%;
+
+}
+
+.buyNow{
+  /*margin-left:38%;*/
+  margin-right:auto;
+  width:20%;
+}
+
+.row{
+  position:relative;
+}
+
+.similar{
+  z-index:2;
+}
+
+.sidebar{
+  position:absolute;
+  width: 16%;
+  height: 100%;
+  border:1px dotted black;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+.crafterImg
+{
+  width: 150px;
+  height: 150px;
+}
+
+.rightCard{
+  padding-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
