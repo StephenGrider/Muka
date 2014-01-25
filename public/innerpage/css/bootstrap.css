@@ -2278,7 +2278,7 @@ textarea.input-lg {
 
 .btn:hover,
 .btn:focus {
-  color: #333333;
+  color: #FFFFFF!important;
   text-decoration: none;
 }
 
@@ -2302,7 +2302,7 @@ fieldset[disabled] .btn {
 }
 
 .btn-default {
-  color: #333333;
+  color: #FFFFFF!important;
   background-color: #ffffff;
   border-color: #cccccc;
 }
@@ -2312,7 +2312,7 @@ fieldset[disabled] .btn {
 .btn-default:active,
 .btn-default.active,
 .open .dropdown-toggle.btn-default {
-  color: #333333;
+  color: #FFFFFF!important;
   background-color: #ebebeb;
   border-color: #adadad;
 }
