@@ -22,7 +22,7 @@ var items = [
     itemScore: 1,
     itemPrice : '$45.00',
     itemDescription: 'Some cloth',
-    crafterUrl: '/innerpage/crafter1.html'
+    crafterUrl: '/innerpage/crafter2.html'
   },
   {
     itemId: 3,
@@ -34,7 +34,7 @@ var items = [
     itemScore: 1,
     itemPrice : '$45.00',
     itemDescription: 'sweet bed bro',
-    crafterUrl: '/innerpage/crafter1.html'
+    crafterUrl: '/innerpage/crafter3.html'
   },
   {
     itemId: 4,
@@ -46,7 +46,7 @@ var items = [
     itemScore: 1,
     itemPrice : '$45.00',
     itemDescription: 'Some awesome pottery',
-    crafterUrl: '/innerpage/crafter1.html'
+    crafterUrl: '/innerpage/crafter2.html'
   }
 ];
 
