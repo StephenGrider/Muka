@@ -24,7 +24,10 @@ $(document).ready(function(){
       $('.itemPrice').html(data.itemPrice)
       $('.itemDescription').html(data.itemDescription)
       $('.itemImage').attr("src",data.itemImage);
-      // $('.itemScore').html(data.itemScore);
+      $('.crafterImg').attr("src",data.crafterImg);
+      $('.crafterBio').html(data.crafterBio);
+      $('.crafterName').html(data.crafterName);
+      console.log(data);
       currentItemId = data.itemId;
       $('.dial')
         .val(data.itemScore)

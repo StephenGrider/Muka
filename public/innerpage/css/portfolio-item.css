@@ -78,13 +78,10 @@ img:hover {
 }
 
 .dislike{
-  /*margin-left: 80px;*/
   width: 40%;
-
 }
 
 .buyNow{
-  /*margin-left:38%;*/
   margin-right:auto;
   width:20%;
 }
@@ -116,20 +113,6 @@ img:hover {
   padding-right: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ----------------Custom Buttons----------------- */
 
 .btn.btn-primary {
     background-color: #1ABC9C;
@@ -209,6 +192,10 @@ a {
 a {
     color: #0088CC;
     text-decoration: none;
+}
+
+.similar{
+  padding-left: 15%;
 }
 
 
