@@ -18,7 +18,7 @@ $(document).ready(function(){
 
   var getItem = function(){
 
-    $.get('/getItem',function(data){
+    $.get('/getItemDecor',function(data){
       data = JSON.parse(data);
       $('.itemName').html(data.itemName)
       $('.itemPrice').html(data.itemPrice)
