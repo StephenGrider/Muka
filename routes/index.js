@@ -9,7 +9,8 @@ var items = [
     crafterName: 'Mr Crafter',
     itemScore: 1,
     itemPrice : '$39.00',
-    itemDescription: 'A long description about the item'
+    itemDescription: 'A long description about the item',
+    crafterUrl: '/innerpage/crafter1.html'
   },
   {
     itemId: 2,
@@ -20,7 +21,8 @@ var items = [
     crafterName: 'Mr Crafter',
     itemScore: 1,
     itemPrice : '$45.00',
-    itemDescription: 'Some cloth'
+    itemDescription: 'Some cloth',
+    crafterUrl: '/innerpage/crafter1.html'
   },
   {
     itemId: 3,
@@ -31,7 +33,8 @@ var items = [
     crafterName: 'Jeannette Builder',
     itemScore: 1,
     itemPrice : '$45.00',
-    itemDescription: 'sweet bed bro'
+    itemDescription: 'sweet bed bro',
+    crafterUrl: '/innerpage/crafter1.html'
   },
   {
     itemId: 4,
@@ -42,7 +45,8 @@ var items = [
     crafterName: 'Crafting Master',
     itemScore: 1,
     itemPrice : '$45.00',
-    itemDescription: 'Some awesome pottery'
+    itemDescription: 'Some awesome pottery',
+    crafterUrl: '/innerpage/crafter1.html'
   }
 ];
 
@@ -65,13 +69,6 @@ exports.recordFeedback = function(req, res){
   }
   res.writeHead(200);
   res.end();
-}
-
-
-exports.topItems = function(req, res){
-
-
-
 }
 
 

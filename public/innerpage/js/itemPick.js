@@ -18,7 +18,7 @@ $(document).ready(function(){
 
   var getItem = function(){
 
-    $.get('/getItemDecor',function(data){
+    $.get('/getItem',function(data){
       data = JSON.parse(data);
       $('.itemName').html(data.itemName)
       $('.itemPrice').html(data.itemPrice)
@@ -27,6 +27,7 @@ $(document).ready(function(){
       $('.crafterImg').attr("src",data.crafterImg);
       $('.crafterBio').html(data.crafterBio);
       $('.crafterName').html(data.crafterName);
+      $('.crafterUrl').attr('href', data.crafterUrl)
       console.log(data);
       currentItemId = data.itemId;
       $('.dial')

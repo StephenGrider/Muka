@@ -198,4 +198,10 @@ a {
   padding-left: 15%;
 }
 
+.sidebar{
+  z-index:50;
+}
+
+
+
 
