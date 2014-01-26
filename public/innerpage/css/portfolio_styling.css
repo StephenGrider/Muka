@@ -1,0 +1,9 @@
+.left-panel{
+   background-color: #666;
+}
+.crafter{
+   padding-left: 0.8em;
+}
+.crafterImg:hover{
+  opacity: 0.3 !important;
+}
