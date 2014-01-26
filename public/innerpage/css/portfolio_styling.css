@@ -199,6 +199,9 @@ img.logo_restore{
 .color-grey{
     color: #888 !important;
 }
+.color-black{
+    color: #555;
+}
 .container_price{
     margin-left: 10px;
 }
@@ -243,4 +246,12 @@ img.logo_restore{
 .push-left{
     float:left;
     margin
+}
+.border-on{
+    border:1px solid #EEE;
+    padding-top: 10px;
+    min-height: 613px;
+}
+.separate-img{
+    margin-top: 13px;
 }
