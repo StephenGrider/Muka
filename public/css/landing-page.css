@@ -21,6 +21,10 @@ img:hover {
 	opacity:0.8;
 }
 
+.content-section-a div.container div.row div.col-lg-5 form#myform div.syco_tooltip {
+	background: none repeat scroll 0 0 #1ABC9C!important;
+}
+
 .lead {
 	font-size: 18px;
 	font-weight: 400;
@@ -193,7 +197,7 @@ h7 {
   }
 
   #myform input[type="text"], #myform textarea {
-    background: none repeat scroll 0 0 #7BB7FA;
+    background: none repeat scroll 0 0 #002D70;
     border: 2px solid #6EA5E1;
     border-radius: 6px;
     box-shadow: none;
