@@ -4,12 +4,10 @@
     <list default="true" id="3a3e09ae-5976-4270-9f46-8cc0c9d2ec7e" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/innerpage/images/dislike.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/innerpage/images/like.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/rating.png" afterPath="$PROJECT_DIR$/public/img/rating.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/innerpage/crafter1.html" afterPath="$PROJECT_DIR$/public/innerpage/crafter1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/innerpage/crafter2.html" afterPath="$PROJECT_DIR$/public/innerpage/crafter2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/innerpage/crafter3.html" afterPath="$PROJECT_DIR$/public/innerpage/crafter3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/innerpage/css/portfolio_styling.css" afterPath="$PROJECT_DIR$/public/innerpage/css/portfolio_styling.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/innerpage/products.html" afterPath="$PROJECT_DIR$/public/innerpage/products.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Muka.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,10 +76,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="crafter1.html" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="crafter1.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/innerpage/crafter1.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="4" selection-start="452" selection-end="508" vertical-scroll-proportion="-4.5" vertical-offset="0" max-vertical-offset="1830">
+                <state line="64" column="105" selection-start="2296" selection-end="2296" vertical-scroll-proportion="0.31322506" vertical-offset="825" max-vertical-offset="1815">
                   <folding>
                     <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#img#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -94,10 +92,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="crafter2.html" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="crafter2.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/innerpage/crafter2.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="60" selection-start="508" selection-end="508" vertical-scroll-proportion="0.49234137" vertical-offset="0" max-vertical-offset="1860">
+                <state line="63" column="104" selection-start="2302" selection-end="2302" vertical-scroll-proportion="-10.916667" vertical-offset="683" max-vertical-offset="1845">
                   <folding />
                 </state>
               </provider>
@@ -106,7 +104,7 @@
           <file leaf-file-name="crafter3.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/innerpage/crafter3.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="72" column="31" selection-start="2840" selection-end="2840" vertical-scroll-proportion="-3.4166667" vertical-offset="998" max-vertical-offset="1890">
+                <state line="64" column="104" selection-start="2306" selection-end="2306" vertical-scroll-proportion="-5.9166665" vertical-offset="818" max-vertical-offset="1875">
                   <folding>
                     <element signature="n#style#0;n#h3#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -156,10 +154,10 @@
         <option value="$PROJECT_DIR$/public/innerpage/css/portfolio-item.css" />
         <option value="$PROJECT_DIR$/public/innerpage/pick.html" />
         <option value="$PROJECT_DIR$/public/innerpage/products.html" />
-        <option value="$PROJECT_DIR$/public/innerpage/crafter3.html" />
-        <option value="$PROJECT_DIR$/public/innerpage/crafter1.html" />
         <option value="$PROJECT_DIR$/public/innerpage/css/portfolio_styling.css" />
         <option value="$PROJECT_DIR$/public/innerpage/crafter2.html" />
+        <option value="$PROJECT_DIR$/public/innerpage/crafter3.html" />
+        <option value="$PROJECT_DIR$/public/innerpage/crafter1.html" />
       </list>
     </option>
   </component>
@@ -481,16 +479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/innerpage/crafter3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="31" selection-start="2840" selection-end="2840" vertical-scroll-proportion="-3.4166667" vertical-offset="998" max-vertical-offset="1890">
-          <folding>
-            <element signature="n#style#0;n#h3#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/innerpage/css/portfolio_styling.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="252" column="19" selection-start="5916" selection-end="5916" vertical-scroll-proportion="0.6703297" vertical-offset="3475" max-vertical-offset="3930">
@@ -498,9 +486,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/innerpage/crafter2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="104" selection-start="2302" selection-end="2302" vertical-scroll-proportion="-10.916667" vertical-offset="683" max-vertical-offset="1845">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/innerpage/crafter3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="104" selection-start="2306" selection-end="2306" vertical-scroll-proportion="-5.9166665" vertical-offset="818" max-vertical-offset="1875">
+          <folding>
+            <element signature="n#style#0;n#h3#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/innerpage/crafter1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="4" selection-start="452" selection-end="508" vertical-scroll-proportion="-4.5" vertical-offset="0" max-vertical-offset="1830">
+        <state line="64" column="105" selection-start="2296" selection-end="2296" vertical-scroll-proportion="0.31322506" vertical-offset="825" max-vertical-offset="1815">
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -509,13 +514,6 @@
             <element signature="n#style#0;n#h3#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/innerpage/crafter2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="60" selection-start="508" selection-end="508" vertical-scroll-proportion="0.49234137" vertical-offset="0" max-vertical-offset="1860">
-          <folding />
         </state>
       </provider>
     </entry>
