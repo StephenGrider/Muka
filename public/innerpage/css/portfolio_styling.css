@@ -193,8 +193,11 @@ img.logo_restore{
     font-weight: 300;
     color: #555;
 }
-.price{
-    color: #888;
+.push-top{
+    margin-top: 1em;
+}
+.color-grey{
+    color: #888 !important;
 }
 .container_price{
     margin-left: 10px;
@@ -205,4 +208,31 @@ img.logo_restore{
     font-style: normal;
     text-rendering: optimizeLegibility;
 
+}
+.price-styling{
+    font-size: x-large !important;
+    font-color: #666 !important;
+}
+.bold{
+    font-weight:bold;
+}
+.right{
+    margin-left: 743px;
+}
+.desc-para-styling{
+    color:  #555;
+    font-size:  1em;
+    line-height:  1.6em;
+    text-align: justify;
+    text-justify:inter-word;
+
+}
+.item-description{
+    width: 740px;
+}
+.desc-styling{
+    color : #555;
+}
+.move-downs{
+    padding-top:10px;
 }

@@ -24,10 +24,10 @@ $(document).ready(function(){
       $('.itemPrice1').html(data.itemPrice)
       $('.itemDescription1').html(data.itemDescription)
       $('.itemImage1').attr("src",data.itemImage);
-      $('.crafterImg1').attr("src",data.crafterImg);
-      $('.crafterBio1').html(data.crafterBio);
-      $('.crafterName1').html(data.crafterName);
-      $('.crafterUrl1').attr('href', data.crafterUrl)
+      $('.crafterImg').attr("src",data.crafterImg);
+      $('.crafterBio').html(data.crafterBio);
+      $('.crafterName').html(data.crafterName);
+      $('.crafterUrl').attr('href', data.crafterUrl)
       currentItemId1 = data.itemId;
       $('.dial')
         .val(data.itemScore)
@@ -43,10 +43,10 @@ $(document).ready(function(){
       $('.itemPrice2').html(data.itemPrice)
       $('.itemDescription2').html(data.itemDescription)
       $('.itemImage2').attr("src",data.itemImage);
-      $('.crafterImg2').attr("src",data.crafterImg);
-      $('.crafterBio2').html(data.crafterBio);
-      $('.crafterName2').html(data.crafterName);
-      $('.crafterUrl2').attr('href', data.crafterUrl)
+      $('.crafterImg').attr("src",data.crafterImg);
+      $('.crafterBio').html(data.crafterBio);
+      $('.crafterName').html(data.crafterName);
+      $('.crafterUrl').attr('href', data.crafterUrl)
       currentItemId2 = data.itemId;
       $('.dial')
         .val(data.itemScore)
