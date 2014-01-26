@@ -111,7 +111,6 @@ img:hover {
   position:absolute;
   width: 16%;
   height: 100%;
-  border:1px dotted black;
   padding-left: 19px;
   padding-right: 10px;
 }
@@ -264,4 +263,7 @@ img.logo_restore{
 .override{
     text-align:left;
     text-size: 40px;
+    max-width: 700px;
+    margin-left: 85px !important;
+    padding-bottom: 10px !important;
 }
