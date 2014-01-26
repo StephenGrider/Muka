@@ -28,7 +28,6 @@ $(document).ready(function(){
       $('.crafterBio').html(data.crafterBio);
       $('.crafterName').html(data.crafterName);
       $('.crafterUrl').attr('href', data.crafterUrl)
-      console.log(data);
       currentItemId = data.itemId;
       $('.dial')
         .val(data.itemScore)
@@ -43,8 +42,9 @@ $(document).ready(function(){
       {
           itemId: currentItemId,
           score: 1
+      },function(){
+        getItem();
       });
-    getItem();
   });
 
   $('.dislike').on('click',function(){
@@ -52,8 +52,9 @@ $(document).ready(function(){
       {
           itemId: currentItemId,
           score: -1
+      },function(){
+        getItem();
       });
-    getItem();
   });
 
 
