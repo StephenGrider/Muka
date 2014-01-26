@@ -84,17 +84,18 @@ img:hover {
 
 .like{
   width: 40%;
-  background-color:green!important;
 }
 
 .dislike{
   width: 40%;
-  background-color:red!important;
 }
 
 .buyNow{
   margin-right:auto;
   width:20%;
+}
+.buyNow:hover{
+    opacity: 0.7;
 }
 
 .row{
@@ -214,6 +215,47 @@ a {
   z-index:50;
 }
 
+.button_dislike{
+}
+
+.button_like{
+    background-color: #15bd96;
+    border-color: none;
+    color: white;
+    padding-top: 0.62rem;
+    padding-bottom: 0.6875rem;
+    padding-right: 0.6875rem;
+    padding-left: 0.6875rem;
+    font-size: 10px;
+    text-align : center;
+    position: relative;
+    font-weight: bold;
+    line-height: 1em;
+    vertical-align: middle;
+    zoom: 1;
+    white-space: nowrap;
+    -webkit-border-radius: 5px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-transition: background-color 0.15s ease-in-out;
+    transition: background-color 0.15s ease-in-out;
+    width: 100%;
+    background-color: #f56363;
+    background-image: -webkit-gradient(top, #df5d5d, #ca5d5d);
+    border: 1px solid #f56363;
+    border-color: #bb4d4d #d25c5c #f56363 #df5d5d;
+}
+.button_like:visited{
+    cursor: pointer;
+}
+.button_dislike:hover{
+    background-color: #fff !important;
+    opacity: 0.7;
+}
 
 
-
+img.logo_restore{
+    width: auto !important;
+    height: auto !important;
+    border : none;
+    margin-top : 5px;
+}
