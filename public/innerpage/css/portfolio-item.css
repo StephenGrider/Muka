@@ -101,7 +101,7 @@ img:hover {
   width: 16%;
   height: 100%;
   border:1px dotted black;
-  padding-left: 15px;
+  padding-left: 19px;
   padding-right: 10px;
 }
 
@@ -175,7 +175,7 @@ img:hover {
     border-style: solid;
     border-width: 1px;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
-    color: #333333;
+    color: #FFF;
     cursor: pointer;
     display: inline-block;
     font-size: 14px;
