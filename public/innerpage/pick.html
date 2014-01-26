@@ -6,17 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-
-    <title>Muka</title>
+    <title>Muka | Aboriginals Handmade Crafts</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <!-- Custom CSS for the '3 Col Portfolio' Template -->
     <link href="css/portfolio-item.css" rel="stylesheet">
+    <link href="css/portfolio_styling.css" rel="stylesheet">
 </head>
-
 <body>
-
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -47,103 +45,101 @@
         <!-- /.container -->
     </nav>
 
-    <div class="sidebar">
-        <br>
-        <h4>About the Crafter</h4>
-        <img class="crafterImg" src="http://tucsoncitizen.com/southern-arizona-guide/files/2012/10/Tohono-Oodham-Basket-Weaver-Elizabeth-Jose2.jpg"></img>
-        <h5 class="crafterName">Jeannette Doe</h5>
-        <div class="crafterBio"> Born and raised on this island on the Pacific Ocean, long time crafter, has been making baskets for a long time, family of 5 and other really important stuff</div>
-        <div>
-            <a style="float:left; margin-top:10px;" class="crafterUrl" href="">Learn more...</a>
+    <div class="left-panel sidebar">
+        <div class="panel_container">
+            <h3 class="center-text crafter">Craftsman Profile</h3>
+            <img class="crafterImg" src="http://tucsoncitizen.com/southern-arizona-guide/files/2012/10/Tohono-Oodham-Basket-Weaver-Elizabeth-Jose2.jpg"></img>
+            <h4 class="center-text crafterName">Jeannette Doe</h4>
+            <div class="justify-text crafterBio"> Born and raised on this island on the Pacific Ocean, long time crafter, has been making baskets for a long time, family of 5 and other really important stuff</div>
+            <a class="learn_more_btn crafterUrl" href="">READ MORE ABOUT IT</a>
         </div>
     </div>
 
     <div class="container">
         <div class="carousel">
+
+
+
+            <!-- Start of first div -->
             <li class="card1">
                 <div class="row">
+                    <div class="col-lg-12 row">
+                        <h1 class="name-styling itemName1 itemName page-header">Red Rocket</h1>
+                        <h3 class="inline itemPrice1 itemPrice">$59.99</h3>
+                        <button class="move-up buyNow btn btn-primary">Buy Now</button>
 
-                    <div class="col-lg-12">
-                        <h1 class="itemName page-header">Red Rocket
-                            <small class="itemPrice">$59.99</small>
-                        </h1>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-7"><img class="itemImage img-responsive" src="images/shoe_1.jpg"></div>
+                    <div class="col-md-7"><img class="itemImage1 itemImage img-responsive" src=""></div>
                     <div class="col-md-4 rightCard">
                         <h3>How Many People Like this Product:</h3>
-                        
                         <input type="text" value="0" class="dial">
+                        <div align="center">
+                            <a href="" class="like1 likeButton"><img  class="inline_img" src="images/like.png"
+                            style="width: auto !important; height:  auto !important;  border:  none;"></a>
+                            <a href="" class="dislike1 dislikeButton"><img  class="inline_img" src="images/dislike.png"
+                            style="width: auto !important; height:  auto !important;  border:  none;"></a>
+                        </div>
+                         <!--
+                            <button class="dislike btn btn-danger">I don't like it.</button>
+                            <button class="like btn btn-success">I like it!</button>-->
                     </div>
                 </div>
                 <br>
                 <br>
-                <div class="row">
-                    <button class="dislike btn btn-danger">I don't like it.</button>
-                    <button class="like btn btn-success">I like it!</button>
-                </div>
                 <br>
-                <div class="row">
-                    <button class="buyNow btn btn-primary">Buy Now</button>
-                </div>
+
             </li>
+
+
+            <!-- End of first div -->
+            <!-- Start of second div -->
+
+
             <li class="card2">
                 <div class="row">
-
                     <div class="col-lg-12">
-                        <h1 class="itemName page-header">Red Rocket
-                            <small class="itemPrice">$59.99</small>
-                        </h1>
+                        <h1 class="name-styling itemName2 itemName page-header">Red Rocket</h1>
+                        <h3 class="inline itemPrice2 itemPrice">$59.99</h3>
+                        <button class="move-up buyNow btn btn-primary">Buy Now</button>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-7"><img class="itemImage img-responsive" src="images/shoe_1.jpg"></div>
+                    <div class="col-md-7"><img class="itemImage2 itemImage img-responsive" src="images/shoe_1.jpg"></div>
                     <div class="col-md-4  rightCard">
                         <h3>How Many People Like this Product:</h3>
                         <input type="text" value="0" class="dial">
+                        <a href="" class="like2 likeButton"><img class="like" src="images/like.png"
+                        style="width: auto !important; height:  auto !important;  border:  none;"></a>
+                        <a href="" class="dislike2 dislikeButton"><img class="dislike" src="images/dislike.png"
+                        style="width: auto !important; height:  auto !important;  border:  none;"></a>
                     </div>
                 </div>
                 <br>
                 <br>
-                <div class="row">
-                    <button class="dislike btn btn-danger">I don't like it.</button>
-                    <button class="like btn btn-success">I like it!</button>
-                </div>
                 <br>
-                <div class="row">
-                    <button class="buyNow btn btn-primary">Buy Now</button>
-                </div>
             </li>
         </div>
 
 
         <div class="similar row">
-
             <div class="col-lg-12">
-                <h3 class="page-header">Product Details</h3>
+                <h3 class="product-details page-header">Product Details</h3>
+                <div class="price">Item Price: <span class="black-color itemPrice"></span></div>
+                <div class="price">Item Description: <span class="black-color itemDescription"></span></div>
             </div>
-
-            <ul>
-                <li>Item Price: <span class="itemPrice"></span></li>
-                <li>Item Description: <span class="itemDescription"></span></li>
-            </ul>
-
         </div>
 
     </div>
     <!-- /.container -->
-
-
-
     <div class="container">
-
-        
-
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <!-- <p>Copyright &copy; Social Good 2014.</p> -->
+                    <!---
+                    <p class="copyright text-muted small">Copyright &copy; Social Good 2014. All Rights Reserved</p>
+                    -->
                 </div>
             </div>
         </footer>
@@ -158,6 +154,9 @@
     <script src="js/jquery.roundabout-shapes.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/itemPick.js"></script>
+
+
+
 
 </body>
 

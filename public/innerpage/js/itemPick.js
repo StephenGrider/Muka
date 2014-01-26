@@ -9,51 +9,96 @@ $(document).ready(function(){
 
   $('.carousel').roundabout({
     shape: 'square',
-    btnNext: '.dislike',
-    btnPrev: '.like',
+    btnNext: '.dislikeButton',
+    btnPrev: '.likeButton',
     duration: 1200
 
   });
 
 
-  var getItem = function(){
+  var getItem1 = function(){
 
     $.get('/getItem',function(data){
       data = JSON.parse(data);
-      $('.itemName').html(data.itemName)
-      $('.itemPrice').html(data.itemPrice)
-      $('.itemDescription').html(data.itemDescription)
-      $('.itemImage').attr("src",data.itemImage);
-      $('.crafterImg').attr("src",data.crafterImg);
-      $('.crafterBio').html(data.crafterBio);
-      $('.crafterName').html(data.crafterName);
-      $('.crafterUrl').attr('href', data.crafterUrl)
-      currentItemId = data.itemId;
+      $('.itemName1').html(data.itemName)
+      $('.itemPrice1').html(data.itemPrice)
+      $('.itemDescription1').html(data.itemDescription)
+      $('.itemImage1').attr("src",data.itemImage);
+      $('.crafterImg1').attr("src",data.crafterImg);
+      $('.crafterBio1').html(data.crafterBio);
+      $('.crafterName1').html(data.crafterName);
+      $('.crafterUrl1').attr('href', data.crafterUrl)
+      currentItemId1 = data.itemId;
       $('.dial')
         .val(data.itemScore)
         .trigger('change');
     });
   };
-  getItem();
+
+  var getItem2 = function(){
+
+    $.get('/getItem',function(data){
+      data = JSON.parse(data);
+      $('.itemName2').html(data.itemName)
+      $('.itemPrice2').html(data.itemPrice)
+      $('.itemDescription2').html(data.itemDescription)
+      $('.itemImage2').attr("src",data.itemImage);
+      $('.crafterImg2').attr("src",data.crafterImg);
+      $('.crafterBio2').html(data.crafterBio);
+      $('.crafterName2').html(data.crafterName);
+      $('.crafterUrl2').attr('href', data.crafterUrl)
+      currentItemId2 = data.itemId;
+      $('.dial')
+        .val(data.itemScore)
+        .trigger('change');
+    });
+  };
 
 
-  $('.like').on('click',function(){
+
+
+
+  getItem1();
+  getItem2();
+
+
+  $('.like1').on('click',function(){
     $.post('/recordFeedback',
       {
-          itemId: currentItemId,
+          itemId: currentItemId1,
           score: 1
       },function(){
-        getItem();
+        setTimeout(getItem1,500);
       });
   });
 
-  $('.dislike').on('click',function(){
+  $('.dislike1').on('click',function(){
     $.post('/recordFeedback',
       {
-          itemId: currentItemId,
+          itemId: currentItemId1,
           score: -1
       },function(){
-        getItem();
+        setTimeout(getItem1,500);
+      });
+  });
+
+  $('.like2').on('click',function(){
+    $.post('/recordFeedback',
+      {
+          itemId: currentItemId2,
+          score: 1
+      },function(){
+        setTimeout(getItem2,500);
+      });
+  });
+
+  $('.dislike2').on('click',function(){
+    $.post('/recordFeedback',
+      {
+          itemId: currentItemId2,
+          score: -1
+      },function(){
+        setTimeout(getItem2,500);
       });
   });
 
