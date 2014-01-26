@@ -153,7 +153,7 @@ h3.special{
     margin-top: -70px;
 }
 .name-styling{
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 .inline{
     float:right;
@@ -234,5 +234,13 @@ img.logo_restore{
     color : #555;
 }
 .move-downs{
-    padding-top:10px;
+    padding-top:40px;
+}
+.push-right{
+    float:right;
+    margin-right: 10px
+}
+.push-left{
+    float:left;
+    margin
 }
