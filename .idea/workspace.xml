@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a3e09ae-5976-4270-9f46-8cc0c9d2ec7e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/innerpage/crafter1.html" afterPath="$PROJECT_DIR$/public/innerpage/crafter1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/innerpage/pick.html" afterPath="$PROJECT_DIR$/public/innerpage/pick.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/innerpage/css/portfolio-item.css" afterPath="$PROJECT_DIR$/public/innerpage/css/portfolio-item.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/innerpage/css/portfolio_styling.css" afterPath="$PROJECT_DIR$/public/innerpage/css/portfolio_styling.css" />
@@ -30,19 +30,28 @@
     <splitter split-orientation="horizontal" split-proportion="0.6938484">
       <split-first>
         <leaf>
-          <file leaf-file-name="pick.html" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="pick.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/innerpage/pick.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="121" column="78" selection-start="5954" selection-end="5954" vertical-scroll-proportion="-2.56" vertical-offset="1597" max-vertical-offset="2325">
+                <state line="89" column="43" selection-start="4189" selection-end="4189" vertical-scroll-proportion="0.5406032" vertical-offset="1012" max-vertical-offset="2370">
                   <folding>
                     <element signature="tag#button#0;tag#div#0;tag#div#0;tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
                     <element signature="tag#li#0;tag#ul#0;tag#div#1;tag#div#0;tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
                     <element signature="n#style#0;n#button#0;n#li#4;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#div#1;n#li#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#1;n#div#1;n#li#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#1;n#li#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#img#0;n#a#1;n#div#1;n#div#1;n#li#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#2;n#li#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#2;n#li#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#2;n#li#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#2;n#li#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="sectional.rnc" pinned="false" current="false" current-in-tab="false">
+            <entry file="jar://$APPLICATION_HOME_DIR$/lib/rubymine.jar!/resources/html5-schema/sectional.rnc">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="10" column="21" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2655">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -50,16 +59,16 @@
           <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/innerpage/css/bootstrap.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="582" column="1" selection-start="7041" selection-end="7041" vertical-scroll-proportion="0.0" vertical-offset="8510" max-vertical-offset="106845">
+                <state line="578" column="0" selection-start="6943" selection-end="6943" vertical-scroll-proportion="0.0" vertical-offset="8510" max-vertical-offset="106845">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="crafter1.html" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="crafter1.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/innerpage/crafter1.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="74" column="18" selection-start="3254" selection-end="3254" vertical-scroll-proportion="0.55684453" vertical-offset="870" max-vertical-offset="1860">
+                <state line="80" column="18" selection-start="4185" selection-end="4185" vertical-scroll-proportion="-18.6" vertical-offset="270" max-vertical-offset="1770">
                   <folding>
                     <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#img#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -77,7 +86,7 @@
           <file leaf-file-name="portfolio-item.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/innerpage/css/portfolio-item.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="172" column="5" selection-start="2580" selection-end="2581" vertical-scroll-proportion="-5.8076925" vertical-offset="2429" max-vertical-offset="3990">
+                <state line="96" column="0" selection-start="1261" selection-end="1261" vertical-scroll-proportion="-2.581818" vertical-offset="1298" max-vertical-offset="4080">
                   <folding />
                 </state>
               </provider>
@@ -86,7 +95,7 @@
           <file leaf-file-name="portfolio_styling.css" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/innerpage/css/portfolio_styling.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="205" column="16" selection-start="5226" selection-end="5226" vertical-scroll-proportion="0.9010989" vertical-offset="2665" max-vertical-offset="3195">
+                <state line="236" column="16" selection-start="5698" selection-end="5698" vertical-scroll-proportion="0.8681319" vertical-offset="3145" max-vertical-offset="3645">
                   <folding />
                 </state>
               </provider>
@@ -108,9 +117,10 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/innerpage/crafter1.html" />
         <option value="$PROJECT_DIR$/public/innerpage/css/portfolio-item.css" />
-        <option value="$PROJECT_DIR$/public/innerpage/pick.html" />
         <option value="$PROJECT_DIR$/public/innerpage/css/portfolio_styling.css" />
+        <option value="$PROJECT_DIR$/public/innerpage/pick.html" />
       </list>
     </option>
   </component>
@@ -389,50 +399,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/innerpage/css/portfolio-item.css">
+    <entry file="file://$PROJECT_DIR$/public/innerpage/crafter1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="172" column="5" selection-start="2580" selection-end="2581" vertical-scroll-proportion="-5.8076925" vertical-offset="2429" max-vertical-offset="3990">
-          <folding />
+        <state line="80" column="18" selection-start="4185" selection-end="4185" vertical-scroll-proportion="-18.6" vertical-offset="270" max-vertical-offset="1770">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/innerpage/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="582" column="1" selection-start="7041" selection-end="7041" vertical-scroll-proportion="0.0" vertical-offset="8510" max-vertical-offset="106845">
+        <state line="578" column="0" selection-start="6943" selection-end="6943" vertical-scroll-proportion="0.0" vertical-offset="8510" max-vertical-offset="106845">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/rubymine.jar!/resources/html5-schema/sectional.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="21" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2655">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/innerpage/css/portfolio-item.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="0" selection-start="1261" selection-end="1261" vertical-scroll-proportion="-2.581818" vertical-offset="1298" max-vertical-offset="4080">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/innerpage/css/portfolio_styling.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="205" column="16" selection-start="5226" selection-end="5226" vertical-scroll-proportion="0.9010989" vertical-offset="2665" max-vertical-offset="3195">
+        <state line="236" column="16" selection-start="5698" selection-end="5698" vertical-scroll-proportion="0.8681319" vertical-offset="3145" max-vertical-offset="3645">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/innerpage/pick.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="78" selection-start="5954" selection-end="5954" vertical-scroll-proportion="-2.56" vertical-offset="1597" max-vertical-offset="2325">
+        <state line="89" column="43" selection-start="4189" selection-end="4189" vertical-scroll-proportion="0.5406032" vertical-offset="1012" max-vertical-offset="2370">
           <folding>
             <element signature="tag#button#0;tag#div#0;tag#div#0;tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#li#0;tag#ul#0;tag#div#1;tag#div#0;tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#button#0;n#li#4;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#div#1;n#li#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#1;n#div#1;n#li#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#1;n#li#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#1;n#div#1;n#div#1;n#li#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/innerpage/crafter1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="18" selection-start="3254" selection-end="3254" vertical-scroll-proportion="0.55684453" vertical-offset="870" max-vertical-offset="1860">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#2;n#li#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#2;n#li#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#2;n#li#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#2;n#li#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

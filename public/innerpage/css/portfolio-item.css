@@ -32,7 +32,7 @@ img.logo_restore{
   padding:6px;
   height: 300px;
   width:300px;
-  margin-left: 60px;
+  margin-left: 45px;
 }
 
 .itemName{
@@ -103,7 +103,8 @@ img:hover {
 }
 
 .similar{
-  z-index:2;
+  z-index:200;
+
 }
 
 .sidebar{
@@ -208,7 +209,7 @@ a {
 }
 
 .similar{
-  padding-left: 15%;
+  padding-left: 24%;
 }
 
 .sidebar{
@@ -258,4 +259,9 @@ img.logo_restore{
     height: auto !important;
     border : none;
     margin-top : 5px;
+}
+
+.override{
+    text-align:left;
+    text-size: 40px;
 }

@@ -26,7 +26,6 @@
                 </button>
                 <a class="navbar-brand" href="#"><img class="logo_restore" src="/img/logo.png" /></a>
             </div>
-
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
@@ -61,9 +60,7 @@
             <li>
                 <div class="row">
                     <div class="col-lg-12 row">
-                        <h1 class="name-styling itemName page-header">Red Rocket</h1>
-                        <h3 class="inline itemPrice">$59.99</h3>
-                        <button class="move-up buyNow btn btn-primary">Buy Now</button>
+                        <h1 class="name-styling itemName page-header override">Red Rocket</h1>
                     </div>
                 </div>
                 <div class="row">
@@ -71,17 +68,16 @@
                     <div class="col-md-4 rightCard">
                         <h3>How Many People Like this Product:</h3>
                         <input type="text" value="0" class="dial">
-                        <div align="center">
-                            <a href="" class="like"><img  class=inline_img" src="images/like.png"
-                            style="width: auto !important; height:  auto !important;  border:  none;"></a>
-                            <a href="" class="dislike"><img  class="inline_img" src="images/dislike.png"
-                            style="width: auto !important; height:  auto !important;  border:  none;"></a>
-                        </div>
-                         <!--
-                            <button class="dislike btn btn-danger">I don't like it.</button>
-                            <button class="like btn btn-success">I like it!</button>-->
+
                     </div>
                 </div>
+                <div class="row">
+                    <div class="move-downs col-md-12">
+                        <a href="" class="dislike"><img class="dislike" src="images/dislike.png"
+                                                        style="width: auto !important; height:  auto !important;  border:  none;"></a>
+                        <a href="" class="like"><img class="like" src="images/like.png"
+                                                     style="width: auto !important; height:  auto !important;  border:  none;"></a>
+                    </div>
                 <br>
                 <br>
                 <br>
@@ -91,10 +87,8 @@
             <!-- Start of second div -->
             <li>
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="move-downs col-lg-12">
                         <h1 class="name-styling itemName page-header">Red Rocket</h1>
-                        <h3 class="inline itemPrice">$59.99</h3>
-                        <button class="move-up buyNow btn btn-primary">Buy Now</button>
                     </div>
                 </div>
                 <div class="row">
@@ -102,27 +96,42 @@
                     <div class="col-md-4  rightCard">
                         <h3>How Many People Like this Product:</h3>
                         <input type="text" value="0" class="dial">
-                        <a href="" class="like"><img class="like" src="images/like.png"
-                        style="width: auto !important; height:  auto !important;  border:  none;"></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
                         <a href="" class="dislike"><img class="dislike" src="images/dislike.png"
                         style="width: auto !important; height:  auto !important;  border:  none;"></a>
-                    </div>
+                        <a href="" class="like"><img class="like" src="images/like.png"
+                        style="width: auto !important; height:  auto !important;  border:  none;"></a>
                 </div>
                 <br>
                 <br>
                 <br>
             </li>
         </div>
+        <!-- End of second div -->
 
 
         <div class="similar row">
             <div class="col-lg-12">
-                <h3 class="product-details page-header">Product Details</h3>
-                <div class="price">Item Price: <span class="black-color itemPrice"></span></div>
-                <div class="price">Item Description: <span class="black-color itemDescription"></span></div>
+                <h3 class="product-details page-header">Product Price</h3>
+                <div class="price-styling price-styling">
+                    <span class="price-desc color-grey">Price :</span>
+                    <span class="itemPrice color-grey"></span>
+                    <p></p><button class="buyNow btn btn-primary">Buy Now</button>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <h3 class="product-details page-header">Product Description</h3>
+                <div class="push-top item-description color-grey">
+                    <h4>
+                    </h4>
+                    <span class="desc-para-styling itemDescription"></span>
+                </div>
+                <!--<div class="price">Item Description: <span class="black-color itemDescription"></span></div>--->
             </div>
         </div>
-
     </div>
     <!-- /.container -->
     <div class="container">
@@ -135,7 +144,6 @@
                 </div>
             </div>
         </footer>
-
     </div>
     <!-- /.container -->
 
@@ -146,10 +154,5 @@
     <script src="js/jquery.roundabout-shapes.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/itemPick.js"></script>
-
-
-
-
 </body>
-
 </html>
