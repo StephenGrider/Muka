@@ -197,7 +197,7 @@ h7 {
   }
 
   #myform input[type="text"], #myform textarea {
-    background: none repeat scroll 0 0 #002D70;
+    background: none repeat scroll 0 0 #CCC;
     border: 2px solid #6EA5E1;
     border-radius: 6px;
     box-shadow: none;
