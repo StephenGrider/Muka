@@ -13,9 +13,7 @@ exports.getItem = function(req, res){
 
 exports.recordFeedback = function(req, res){
   for(var i = 0; i < items.length; i++){
-    console.log(items[i].itemId, req.body.itemId)
     if(items[i].itemId === parseInt(req.body.itemId)){
-      console.log('foundit');
       items[i].itemScore += parseInt(req.body.score);
     }
   }
@@ -25,6 +23,7 @@ exports.recordFeedback = function(req, res){
 
 var items = [
   {
+    itemId: 1,
     itemImage: '/images/1.jpg',
     itemName: 'Amaya Chair',
     crafterImg: '/images/crafter1.jpg',
@@ -72,7 +71,7 @@ var items = [
     crafterUrl: '/innerpage/crafter1.html'
   },
   {
-    itemId: 4,
+    itemId: 5,
     itemImage: '/images/5.jpg',
     itemName: 'Dividend',
     crafterImg: '/images/crafter1.jpg',
@@ -84,7 +83,7 @@ var items = [
     crafterUrl: '/innerpage/crafter1.html'
   },
   {
-    itemId: 4,
+    itemId: 6,
     itemImage: '/images/6.jpg',
     itemName: 'La Luna',
     crafterImg: '/images/crafter1.jpg',
@@ -96,7 +95,7 @@ var items = [
     crafterUrl: '/innerpage/crafter1.html'
   },
   {
-    itemId: 4,
+    itemId: 7,
     itemImage: '/images/7.jpg',
     itemName: 'Lemongrass',
     crafterImg: '/images/crafter1.jpg',
@@ -108,7 +107,7 @@ var items = [
     crafterUrl: '/innerpage/crafter1.html'
   },
   {
-    itemId: 4,
+    itemId: 8,
     itemImage: '/images/8.jpg',
     itemName: 'Lightbox',
     crafterImg: '/images/crafter1.jpg',
@@ -120,7 +119,7 @@ var items = [
     crafterUrl: '/innerpage/crafter1.html'
   },
   {
-    itemId: 4,
+    itemId: 9,
     itemImage: '/images/9.jpg',
     itemName: 'Manolo',
     crafterImg: '/images/crafter1.jpg',
@@ -132,7 +131,7 @@ var items = [
     crafterUrl: '/innerpage/crafter1.html'
   },
   {
-    itemId: 4,
+    itemId: 10,
     itemImage: '/images/10.jpg',
     itemName: 'Marrow',
     crafterImg: '/images/crafter2.jpg',
@@ -144,7 +143,7 @@ var items = [
     crafterUrl: '/innerpage/crafter2.html'
   },
   {
-    itemId: 4,
+    itemId: 11,
     itemImage: '/images/11.jpg',
     itemName: 'Mars',
     crafterImg: '/images/crafter2.jpg',
@@ -156,7 +155,7 @@ var items = [
     crafterUrl: '/innerpage/crafter2.html'
   },
   {
-    itemId: 4,
+    itemId: 12,
     itemImage: '/images/12.jpg',
     itemName: 'Matchbox',
     crafterImg: '/images/crafter2.jpg',
@@ -168,7 +167,7 @@ var items = [
     crafterUrl: '/innerpage/crafter2.html'
   },
   {
-    itemId: 4,
+    itemId: 13,
     itemImage: '/images/13.jpg',
     itemName: 'Oasis',
     crafterImg: '/images/crafter2.jpg',
@@ -180,7 +179,7 @@ var items = [
     crafterUrl: '/innerpage/crafter2.html'
   },
   {
-    itemId: 4,
+    itemId: 14,
     itemImage: '/images/14.jpg',
     itemName: 'Steady Leaf',
     crafterImg: '/images/crafter2.jpg',
@@ -192,7 +191,7 @@ var items = [
     crafterUrl: '/innerpage/crafter2.html'
   },
   {
-    itemId: 4,
+    itemId: 15,
     itemImage: '/images/15.jpg',
     itemName: 'Sunset',
     crafterImg: '/images/crafter2.jpg',
@@ -204,7 +203,7 @@ var items = [
     crafterUrl: '/innerpage/crafter2.html'
   },
   {
-    itemId: 4,
+    itemId: 16,
     itemImage: '/images/16.jpg',
     itemName: 'The Ladybug',
     crafterImg: '/images/crafter3.jpg',
@@ -216,7 +215,7 @@ var items = [
     crafterUrl: '/innerpage/crafter3.html'
   },
   {
-    itemId: 4,
+    itemId: 17,
     itemImage: '/images/17.jpg',
     itemName: 'Tropez',
     crafterImg: '/images/crafter3.jpg',
@@ -228,7 +227,7 @@ var items = [
     crafterUrl: '/innerpage/crafter3.html'
   },
   {
-    itemId: 4,
+    itemId: 18,
     itemImage: '/images/18.jpg',
     itemName: 'Wings',
     crafterImg: '/images/crafter3.jpg',
@@ -240,7 +239,7 @@ var items = [
     crafterUrl: '/innerpage/crafter3.html'
   },
   {
-    itemId: 4,
+    itemId: 19,
     itemImage: '/images/19.jpg',
     itemName: 'Zen',
     crafterImg: '/images/crafter3.jpg',
@@ -252,7 +251,7 @@ var items = [
     crafterUrl: '/innerpage/crafter3.html'
   },
   {
-    itemId: 4,
+    itemId: 20,
     itemImage: '/images/20.jpg',
     itemName: 'Ziggy',
     crafterImg: '/images/crafter3.jpg',

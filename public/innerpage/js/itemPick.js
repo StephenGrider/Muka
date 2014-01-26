@@ -44,7 +44,7 @@ $(document).ready(function(){
           itemId: currentItemId,
           score: 1
       });
-    setTimeout(getItem,500)
+    getItem();
   });
 
   $('.dislike').on('click',function(){
@@ -53,7 +53,7 @@ $(document).ready(function(){
           itemId: currentItemId,
           score: -1
       });
-    setTimeout(getItem,500)
+    getItem();
   });
 
 
