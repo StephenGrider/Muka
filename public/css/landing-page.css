@@ -8,6 +8,15 @@ body, h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
 }
 
+.navbar div.container div.collapse ul.nav li {
+	margin-top:5px;
+}
+
+.intro-header div.container div.row div.col-lg-12 div.intro-message h3 {
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+	font-size:33px;
+}
+
 img:hover {
 	opacity:0.8;
 }

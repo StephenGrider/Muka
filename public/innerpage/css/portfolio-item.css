@@ -67,7 +67,7 @@ img:hover {
   width: 60em;
   cursor: pointer;
   background-color: white;
-  border: 1px solid #999;
+  border: 1px solid #EEE;
 }
 .roundabout-in-focus {
   cursor: auto;
@@ -75,11 +75,13 @@ img:hover {
 
 .like{
   width: 40%;
+  background-color:green!important;
 }
 
 .dislike{
   /*margin-left: 80px;*/
   width: 40%;
+  background-color:red!important;
 
 }
 
