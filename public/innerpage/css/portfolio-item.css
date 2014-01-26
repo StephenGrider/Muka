@@ -109,6 +109,7 @@ img:hover {
 {
   width: 150px;
   height: 150px;
+  border: none !important;
 }
 
 .rightCard{
